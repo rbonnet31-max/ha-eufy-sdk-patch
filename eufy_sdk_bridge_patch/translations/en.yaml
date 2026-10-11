@@ -1,0 +1,19 @@
+configuration:
+  email:
+    name: eufy email
+    description: The email of the eufy account the bridge logs in with.
+  password:
+    name: eufy password
+    description: The password for that eufy account. Stored by the Supervisor, sent only to the bridge.
+  country:
+    name: Country code
+    description: Two-letter account country (e.g. GB, US, DE) — routes the correct eufy region.
+  solix_email:
+    name: Solix email (optional)
+    description: Anker Solix account email. Fill this AND the Solix password to add the Solarbank / smart-meter entities. Leave empty to keep Solix off. A separate account from eufy.
+  solix_password:
+    name: Solix password (optional)
+    description: Password for the Anker Solix account. Stored by the Supervisor, sent only to the bridge.
+  solix_country:
+    name: Solix country code (optional)
+    description: Two-letter Solix account country (e.g. GB, DE). Leave empty to reuse the eufy country above.
